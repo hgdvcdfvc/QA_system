@@ -6,7 +6,7 @@ import chromadb
 import os
 
 def build_up():
-    client = OpenAI(api_key="sk-8a2e60fb41c746608151967e2bd980d2", #输入自己的apikey。
+    client = OpenAI(api_key="", #输入自己的apikey。
                 base_url="https://dashscope.aliyuncs.com/compatible-mode/v1")
     db_client = chromadb.PersistentClient(path="./txt_knowledge_base")
     collection = db_client.get_or_create_collection(name="txt_docs")
