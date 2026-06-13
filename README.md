@@ -87,5 +87,6 @@ streamlit run api_model_demo.py
 | **Sentence-Transformers** | ❌ 不需要 | ❌ 不需要 |
 
 * **本地版初始化说明**：第一次运行会加载向量模型并构建新的本地知识库。只有在 `models` / `model` 文件夹下找不到指定权重，且没有设置对应的环境变量时，系统才会自动回退到 Hugging Face 线上仓库名进行动态下载。
-* 后续修改说明
-  可自由修改database.txt内的文本内容实现个性化。
+###后续修改说明
+
+可自由修改database.txt内的文本内容实现个性化。
